@@ -1,0 +1,131 @@
+h1{
+/* will only edit the h1 headings*/
+  text-align: center;
+/*this alignes both headings to the centre of the page*/
+  font-size: 60px;
+/*this edits both headings text to the size of 60px*/
+  font-family: castellar;
+/*this edits both headings font to 'castellar'*/
+  color: green;
+/*this change the colour of both headings to green*/
+}
+
+
+.aboutp1{
+/* will only edit the body of text with the class 'aboutp1'*/
+  margin-left: 50PX;
+/*this gives the body of text a left margin of 50px*/
+  margin-right: 50px;
+/*this gives the body of text a right margin of 50px*/
+}
+
+
+.trailer{
+/* will only edit the video classed 'trailer'*/
+  width: 60%;
+/* changes hte width of the video to 60% of the page*/
+  height: 40%;
+/*changes the height of the video to 40% of the page*/
+  margin-left: 20%;
+/* this gives the video a left margin 20% of the page*/
+}
+
+img{
+/* this edits all images on pages linked to this CSS page*/
+  width: 15%;
+/* changes the width of all images to 15% of the page*/
+  float: left;
+/* positiones all images to the left of the page*/
+}
+
+
+section::after {
+/*tells the css we want to edit the 'section' elements*/
+  content: "";
+  display: block;
+/* these two lines inserts a block-like feature around the content*/
+  clear: both;
+/* this instructs the css to clear the sections around any elements instructe to float*/
+}
+
+
+div{
+/* edits all div sections*/
+  float: left;
+/* places the menu on the left side of its container, allowing text to wrap around it*/
+  width: 46%;
+/* changes the menu buttons width to 46% of the page*/
+  text-align: center;
+/* centrally allignes the menu*/
+  background-color: green;
+/* changes the background colour of the menu button to green*/
+  padding: 20px;
+/* gives the background colour 20px padding, making the button more spacious*/
+  box-sizing: border-box;
+/* this makes the contents padding, border and margins work together*/
+  margin: 2%;
+/* gives the buttons a 2% (in relation to the page size) margin away from eachother*/
+  font-family: sans-serif;
+/* changes the font type of the link text to sans serif*/
+  font-size: 30px;
+/*changes the font size to 30px*/
+}
+a{
+  color: white;
+/*chanegs the link text colour to white*/
+}
+
+
+div:hover{
+  background-color: #095C12;
+/* when hovering over the menu buttons it changes to that selected colour*/
+}
+
+p{
+  font-size: 18px;
+/*changes the font size of all 'p' elements to 18px*/
+  font-family: sans-serif;
+/* changes the font type of all 'p' elements to sans serif to match all the other bodies of text*/
+  color: white;
+/*changes the text colour of all 'p' elements to white*/
+  text-align: center;
+/*alignes all 'p' elements to the centre of the page*/
+}
+
+footer{
+/* edits all footer elements*/
+  font-family: sans-serif;
+/* changes the font type of all footers to sans serif*/
+  text-align: center;
+/* aligns the text in all footers to the centre of the page*/
+  color: white;
+/*changes the text colour of all footers to white*/
+  background-color: #095C12;
+/*changes the background colour of all footers to the colour selected*/
+  padding-bottom: 20px;
+  padding-top: 20px;
+/* widens the background colour around the text an extra 20px on the top and bottom of all footers*/
+}
+
+.audio1{
+/*edits the elements classed 'audio1'*/
+  padding-bottom: 70px;
+/*gives 'audio1' 70px space between the next element*/
+  margin-left: 30%;
+/*spaces the audio 30% of the page away from the neighbouring floating element*/
+}
+
+
+.audio2{
+/*edits the elements classed 'audio2'*/
+  padding-bottom: 70px;
+/*gives 'audio2' 70px space between the next element*/
+  margin-left: 30%;
+  /*spaces the audio 30% of the page away from the neighbouring floating element*/
+}
+
+body{
+/*edits the whole body of text on all pages liked to the CSS page*/
+background-color: #000000;
+/*changes the background colour of the body to the colour selected*/
+}
